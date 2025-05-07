@@ -1,7 +1,8 @@
 package _01_ArraysAndStrings;
 
-// Given two strings, write a method to decide if one is a permutation of the 
-// other
+/*
+ Given two strings, write a method to decide if one is a permutation of the other
+*/
 public class _02_CheckPermutation {
 	boolean permutation(String s, String t) {
 		if (s.length() != t.length())
