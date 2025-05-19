@@ -13,6 +13,8 @@ public class _07_RotateMatrix {
 		for (int i = 0; i < n / 2; i++) {
 
 			// Consider elements in group of 4 as P1, P2, P3 & P4 in current square
+			// P1 P2
+			// P4 P3
 			for (int j = i; j < n - i - 1; j++) {
 
 				// Swap elements in clockwise order

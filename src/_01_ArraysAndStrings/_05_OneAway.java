@@ -45,7 +45,7 @@ public class _05_OneAway {
 		return true;
 	}
 
-	private boolean oneEditInsert(String s1, String s2) {
+	private boolean oneEditInsert(String s1, String s2) {	// s1.length() < s2.length()
 		int index1 = 0;
 		int index2 = 0;
 
